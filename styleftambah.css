@@ -1,0 +1,43 @@
+/*form*/
+.login-form {
+    width: 340px;
+    margin: -10px auto;
+}
+
+.login-form h1 {
+    margin: -20px 0 5px;
+}
+
+.btn {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.top {
+    padding-top: 30px;
+    text-align: center;
+}
+
+/*tombol Log In*/
+.tombol1 {
+    border-radius: 500px !important;
+    width: 30%;
+    margin-left: 120px;
+    margin-top: 40px;
+    color: white;
+    background-color: #17467C !important;
+}
+
+.tombol2 {
+    border-radius: 500px !important;
+    width: 30%;
+    margin-left: 230px;
+    margin-top: -36px !important;
+    color: white;
+    background-color: #ED3042 !important;
+}
+
+.box-content {
+    font-family: unica one;
+    margin-top: 40px;
+}

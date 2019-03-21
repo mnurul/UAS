@@ -1,0 +1,263 @@
+/*Navbar*/
+.navbar {
+	margin-top: -15px;
+}
+
+.navbar-brand {
+	font-family: Unica One;
+	font-size: 40px !important;
+	color: whitesmoke !important;
+}
+
+.nav-link {
+	font-family: Unica One;
+	/*text-transform:uppercase;*/
+	right: 20px;
+	color: whitesmoke !important;
+}
+
+/*Jumbotron*/
+.jumbotron {
+	background-image: url(Gambar/stadion.jpg) !important;
+	height: 479px;
+
+}
+
+
+.jumbotron .display-4 {
+	text-align: center !important;
+	margin-top: 130px;
+	font-size: 100px;
+	color: whitesmoke !important;
+	font-family: Unica One;
+}
+
+.bg {
+	background-color: black !important;
+	height: 700px;
+	width: 100%;
+	margin-top: -65px;
+	display: inline-block;
+}
+
+/*carousel*/
+.gambarslide {
+	top: 33px;
+}
+
+.carousel {
+	top: 100px !important;
+}
+
+/*teks banner*/
+.teks {
+	font-size: 40px;
+	margin-top: 400px !important;
+	text-transform: uppercase;
+}
+
+/*Banner*/
+.setbanner {
+	margin-top: 260px;
+
+}
+
+.container {
+	position: relative;
+	width: 50%;
+}
+
+.image {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.container:hover .image {
+	opacity: 0.3;
+}
+
+.container:hover .middle {
+	opacity: 1;
+}
+
+.text {
+	background-color: #4CAF50;
+	color: white;
+	font-size: 16px;
+	padding: 16px 32px;
+}
+
+/*footer*/
+.end {
+	background-color: #EBE6DF;
+	width: 100%;
+	height: 200px;
+}
+
+/*Tombol*/
+.tombol2 {
+	font-family: Unica One;
+	border-radius: 30px;
+	/*width:20%;*/
+	color: white;
+
+}
+
+.btn {
+	background-color: #17467C;
+}
+
+/*Foto*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Arial;
+}
+
+.header {
+	text-align: center;
+
+}
+
+.row {
+	display: -ms-flexbox;
+	/* IE10 */
+	display: flex;
+	-ms-flex-wrap: wrap;
+	/* IE10 */
+	flex-wrap: wrap;
+	padding: 0 40px;
+	margin-top: -37px;
+	width: 1350px;
+
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+	-ms-flex: 25%;
+	/* IE10 */
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+
+}
+
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+	.column {
+		-ms-flex: 50%;
+		flex: 50%;
+		max-width: 50%;
+	}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.column {
+		-ms-flex: 100%;
+		flex: 100%;
+		max-width: 100%;
+	}
+}
+
+#modal-content {
+	display: none;
+}
+
+#modal-content label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+#modal-content input {
+	width: 95%;
+}
+
+/*tombol*/
+.tombol {
+	border-radius: 500px !important;
+	width: 30%;
+	margin-left: 170px;
+	margin-top: 8px;
+}
+
+.tombol1 {
+	border-radius: 500px !important;
+	width: 30%;
+	margin-left: 170px;
+	margin-bottom: 8px;
+}
+
+/*modal*/
+.modal {
+	top: 250px;
+
+}
+
+/*sponsor*/
+.avatar {
+	vertical-align: middle;
+}
+
+/*logo jumbotron*/
+.logoatas {
+	margin-left: 50px;
+	margin-top: 90px !important;
+	margin-bottom: -120px;
+	width: 250px;
+	height: 250px;
+}
+
+/*teks jumbotron*/
+.teksjumbotron {
+	margin-top: 150px !important;
+	margin-left: -60px;
+	font-size: 120px !important;
+
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+	/*.navbar-brand, .nav-link{
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	}*/
+
+	.nav-link:hover::after {
+		content: '';
+		display: block;
+		border-bottom: 3px solid gray;
+		width: 50%;
+		margin: auto;
+		/* !important untuk menjalankan paksa */
+		padding-bottom: 5px;
+		margin-bottom: -8px;
+	}
+
+	.jumbotron {
+		margin-top: -75px;
+	}
+
+}

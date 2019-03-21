@@ -1,0 +1,25 @@
+/*Navbar*/
+.navbar {
+    margin-top: -12px;
+
+}
+
+.navbar-brand {
+
+    font-size: 40px !important;
+
+}
+
+.nav-link {
+
+    /*text-transform:uppercase;*/
+    margin-left: 0px !important;
+
+}
+
+/*teks heade*/
+.teksheader {
+    font-size: 40px;
+    margin-top: 10px !important;
+    /*text-transform: uppercase;*/
+}

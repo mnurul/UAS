@@ -1,0 +1,86 @@
+/*h1*/
+.judul {
+	text-align: center;
+	padding: 20px;
+	font-size: 50px;
+}
+
+/*logo header*/
+.avatar {
+	top: -50px !important;
+	padding-top: -40px !important;
+	margin-top: -40px !important;
+}
+
+
+
+.logoatas1 {
+
+	margin-top: -90px !important;
+
+}
+
+/*garis tipis*/
+.divider {
+	border-top: 1px solid #d9dadc;
+	display: block;
+	line-height: 1px;
+	margin: 40px 0;
+	position: relative;
+	text-align: center;
+}
+
+/*Dividet atas*/
+.top {
+	margin-top: -0px;
+	margin-bottom: -10px;
+}
+
+/*form*/
+.login-form {
+	width: 340px;
+	margin: 50px auto;
+}
+
+.login-form h1 {
+	margin: -20px 0 5px;
+}
+
+.btn {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.top {
+	padding-top: 30px;
+	text-align: center;
+}
+
+/*tombol Log In*/
+.tombol1 {
+	border-radius: 500px !important;
+	width: 50%;
+	margin-left: 170px;
+	margin-top: 40px;
+	color: white;
+	background-color: #17467C !important;
+}
+
+.btn-primary,
+.btn,
+.btn-block {
+	background-color: #17467C !important;
+}
+
+
+
+/*tulisan Log In*/
+.text-center {
+	padding-bottom: 30px;
+	margin-top: -20px;
+}
+
+/*Dividet atas*/
+.bottom {
+	margin-bottom: -40px;
+}

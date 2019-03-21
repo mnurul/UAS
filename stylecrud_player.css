@@ -1,0 +1,25 @@
+/*Navbar*/
+.navbar {
+    margin-top: 0px;
+
+}
+
+.navbar-brand {
+    /*font-family: Unica One;*/
+    font-size: 40px !important;
+    color: whitesmoke !important;
+}
+
+.nav-link {
+    /*font-family: Unica One;*/
+    /*text-transform:uppercase;*/
+    margin-left: 0px !important;
+
+}
+
+/*teks heade*/
+.teksheader {
+    font-size: 40px;
+    margin-top: 10px !important;
+    /*text-transform: uppercase;*/
+}
